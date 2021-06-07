@@ -49,12 +49,6 @@ componentDidUpdate(prevProps, prevState) {
   render() {
       let { answers } = this.props;
       
-      let transition = {
-          transitionName: "example",
-          transitionEnterTimeout: 500,
-          transitionLeaveTimeout: 300
-      }
-      
       return (
           <div id="answers">
               <ul>
