@@ -14,6 +14,7 @@ class Answers extends React.Component {
     checkAnswer(e) {
         let { isAnswered } = this.props;
     if(!isAnswered) {
+
         let elem = e.currentTarget;
         let { correct, increaseScore } = this.props;
         let answer = Number(elem.dataset.id);
@@ -42,6 +43,7 @@ componentDidUpdate(prevProps, prevState) {
         });
     }
   }
+
 
   
   render() {

@@ -98,7 +98,6 @@
     #answers li p:hover{
         color:#fff;
     }
-
     #answers li:after{
         display: block;
     }
