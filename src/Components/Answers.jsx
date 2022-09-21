@@ -27,8 +27,7 @@ class Answers extends React.Component {
         else {
             updatedClassNames[answer-1] = 'wrong';
         }
-        
-        this.setState({
+                this.setState({
             classNames: updatedClassNames
         })
         console.log(updatedClassNames);
